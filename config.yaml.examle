@@ -1,0 +1,15 @@
+deepseek:
+  api_key: "your-api-key-here"
+  model: "deepseek-chat"
+  timeout: 10
+
+wechat:
+  type: "enterprise"  # enterprise/personal
+  enterprise:
+    corp_id: "企业微信CorpID"
+    secret: "应用Secret"
+    agent_id: 1000001
+    token: "回调Token"
+    aes_key: "加密AESKey"
+  personal:
+    hot_reload: true  # 使用扫码登录缓存

@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    env_file: .env
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs
+
+  redis:  # 可选消息队列
+    image: redis:alpine
+    ports:
+      - "6379:6379"

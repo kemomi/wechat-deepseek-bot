@@ -1,0 +1,5 @@
+#STYLE#type #NAME#Props = {}
+
+export function #NAME#(props: #NAME#Props) {
+    return <div />
+}

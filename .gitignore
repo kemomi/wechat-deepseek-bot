@@ -1,0 +1,9 @@
+   # .gitignore
+   config.yaml
+   *.env
+   /venv/
+   /logs/
+   venv/
+   __pycache__/
+   *.log
+   config/config.py
